@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HoeflerText.ttc">
+            <string>HoeflerText-Black</string>
+            <string>HoeflerText-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOPSTA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEV-p2-zOI">
+                                <rect key="frame" x="56" y="318.5" width="262.5" height="30"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="30"/>
+                                <color key="textColor" red="0.46666666666666667" green="0.82745098039215681" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHY SHOP ALONE WHEN YOU CAN SHOPSTA?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Mm1-y7-cwx">
+                                <rect key="frame" x="37" y="368.5" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="EwE-EC-LWT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
+                                <color key="textColor" red="0.95673877000808716" green="0.98077064752578735" blue="0.72495698928833008" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ApplicationLogo" translatesAutoresizingMaskIntoConstraints="NO" id="iqi-T2-7cl">
+                                <rect key="frame" x="93.5" y="132" width="187.5" height="166.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490196078433" green="0.13725490196078433" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mm1-y7-cwx" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.8" id="02L-dV-I7J"/>
+                            <constraint firstItem="lEV-p2-zOI" firstAttribute="top" secondItem="iqi-T2-7cl" secondAttribute="bottom" constant="20" id="0kb-YI-Fdn"/>
+                            <constraint firstItem="iqi-T2-7cl" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.25" id="3yb-0V-XKP"/>
+                            <constraint firstItem="lEV-p2-zOI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6yW-Ii-cEb"/>
+                            <constraint firstItem="lEV-p2-zOI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8Im-2R-CC5"/>
+                            <constraint firstItem="lEV-p2-zOI" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.7" id="9AB-lp-zmj"/>
+                            <constraint firstItem="iqi-T2-7cl" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="NpG-xg-ntv"/>
+                            <constraint firstItem="iqi-T2-7cl" firstAttribute="centerX" secondItem="lEV-p2-zOI" secondAttribute="centerX" id="cLP-X9-CC4"/>
+                            <constraint firstItem="Mm1-y7-cwx" firstAttribute="top" secondItem="lEV-p2-zOI" secondAttribute="bottom" constant="20" id="gfJ-He-e94"/>
+                            <constraint firstItem="Mm1-y7-cwx" firstAttribute="centerX" secondItem="lEV-p2-zOI" secondAttribute="centerX" id="h8a-Ab-Ozl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ApplicationLogo" width="512" height="512"/>
+    </resources>
+</document>

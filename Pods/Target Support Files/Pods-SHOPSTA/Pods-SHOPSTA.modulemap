@@ -1,0 +1,6 @@
+framework module Pods_SHOPSTA {
+  umbrella header "Pods-SHOPSTA-umbrella.h"
+
+  export *
+  module * { export * }
+}
